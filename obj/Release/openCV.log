@@ -1,0 +1,35 @@
+﻿已經開始建置於 2016/10/26 上午 02:15:18。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\frank\Desktop\0556638_張為誠\openCV\openCV\openCV.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "obj\Release\openCV.unsuccessfulbuild"。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IopenCV\include /IopenCV\include\opencv /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\\" /Fd"obj\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\frank\desktop\0556638_張為誠\opencv\opencv\opencv\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\frank\desktop\0556638_張為誠\opencv\opencv\opencv\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\frank\desktop\0556638_張為誠\opencv\opencv\opencv\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\frank\desktop\0556638_張為誠\opencv\opencv\opencv\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\frank\Desktop\0556638_張為誠\openCV\openCV\openCV\include\opencv2/legacy/compat.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>main.cpp(25): warning C4244: '引數' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(25): warning C4244: '引數' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(29): warning C4244: '引數' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(29): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+     1>main.cpp(38): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(38): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>main.cpp(51): warning C4244: '正在初始化' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(68): warning C4244: '=' : 將 'float' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Release\openCV.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:openCV\lib opencv_calib3d244.lib opencv_calib3d244d.lib opencv_contrib244.lib opencv_contrib244d.lib opencv_core244.lib opencv_core244d.lib opencv_features2d244.lib opencv_features2d244d.lib opencv_flann244.lib opencv_flann244d.lib opencv_gpu244.lib opencv_gpu244d.lib opencv_haartraining_engine.lib opencv_haartraining_engined.lib opencv_highgui244.lib opencv_highgui244d.lib opencv_imgproc244.lib opencv_imgproc244d.lib opencv_legacy244.lib opencv_legacy244d.lib opencv_ml244.lib opencv_ml244d.lib opencv_nonfree244.lib opencv_nonfree244d.lib opencv_objdetect244.lib opencv_objdetect244d.lib opencv_photo244.lib opencv_photo244d.lib opencv_stitching244.lib opencv_stitching244d.lib opencv_ts244.lib opencv_ts244d.lib opencv_video244.lib opencv_video244d.lib opencv_videostab244.lib opencv_videostab244d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"obj\Release\openCV.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\frank\Desktop\0556638_張為誠\openCV\openCV\bin\Release\openCV.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Release\openCV.lib" /MACHINE:X86 obj\Release\main.obj
+         正在產生程式碼
+         已完成程式碼產生
+         openCV.vcxproj -> C:\Users\frank\Desktop\0556638_張為誠\openCV\openCV\bin\Release\openCV.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"bin\Release\openCV.exe;#1" /manifest obj\Release\openCV.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "obj\Release\openCV.unsuccessfulbuild"。
+         正在變更時間戳記 "obj\Release\openCV.lastbuildstate"。
+     1>專案 "C:\Users\frank\Desktop\0556638_張為誠\openCV\openCV\openCV.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.51
